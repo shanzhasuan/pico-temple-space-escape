@@ -1,0 +1,432 @@
+{
+  "hero_fp": {
+    "rig": {
+      "joints": 16,
+      "animations": [
+        "idle",
+        "run",
+        "jump",
+        "slide"
+      ],
+      "firstPersonHeadRemoved": true
+    },
+    "headCut": "all triangle vertices below 78% original height; unused vertices compacted"
+  },
+  "hero": {
+    "source": "art/hero_v2.glb",
+    "sha256": "e2d5790f3dab2768c0d5af0391647c99238b61cba51cd9e9ecc2cfcf08e5d327",
+    "sourceRotation": [
+      [
+        6.123233995736766e-17,
+        0.0,
+        -1.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        6.123233995736766e-17
+      ]
+    ],
+    "units": "glTF meters",
+    "upAxis": "Y",
+    "min": [
+      -0.4964918792247772,
+      -0.5,
+      -0.09817683696746826
+    ],
+    "max": [
+      0.4964918792247772,
+      0.5,
+      0.09817683696746826
+    ],
+    "triangles": 11718,
+    "rig": {
+      "joints": 16,
+      "animations": [
+        "idle",
+        "run",
+        "jump",
+        "slide"
+      ],
+      "firstPersonHeadRemoved": false
+    }
+  },
+  "guardian": {
+    "source": "art/guardian_v2.glb",
+    "sourceSha256": "0e7d4351da40f9643dc617a2120da990d1815123088518dd0e2890a3a965aee3",
+    "sha256": "537180d97ec1f9d2c15905d808303e10cea6c3d63c8090e64405d4dec4b07dc1",
+    "min": [
+      -0.3157089352607727,
+      -0.41257524490356445,
+      -0.5
+    ],
+    "max": [
+      0.3157089352607727,
+      0.41257524490356445,
+      0.5
+    ],
+    "triangles": 11966,
+    "rig": {
+      "joints": 16,
+      "animations": [
+        "idle",
+        "run",
+        "lunge"
+      ],
+      "method": "local quadruped skeletal rig on existing complete SGS mesh"
+    }
+  },
+  "path_open": {
+    "source": "path SGS generated mesh",
+    "adaptation": "Lower parapets to deck at turn junction tiles; remove collapsed zero-area faces; retain paving and bridge base",
+    "triangles": 10961
+  },
+  "path": {
+    "source": "art/path_v2.glb",
+    "sha256": "651d2f9b4570827bbcdd3ab0be982b981b2118556bf2f459b2999b49c18a486a",
+    "sourceRotation": [
+      [
+        0.9977997013974559,
+        0.0,
+        0.06630049691478775
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        -0.06630049691478775,
+        0.0,
+        0.9977997013974559
+      ]
+    ],
+    "units": "glTF meters",
+    "upAxis": "Y",
+    "min": [
+      -0.3121612071990967,
+      -0.2104824185371399,
+      -0.5166608691215515
+    ],
+    "max": [
+      0.3130375146865845,
+      0.2104824185371399,
+      0.5154637098312378
+    ],
+    "triangles": 10961,
+    "deckY": 0.016858888790011406,
+    "deckMeasurement": "upward central triangles, area weighted dominant height band"
+  },
+  "gate": {
+    "source": "art/gate_v2.glb",
+    "sha256": "a5900cc0a47abf200baefb3a06f1d5ba7b7828d33488fed0a23a37a3c271f81e",
+    "sourceRotation": [
+      [
+        -0.002110676793282664,
+        0.0,
+        -0.9999977725192564
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.9999977725192564,
+        0.0,
+        -0.002110676793282664
+      ]
+    ],
+    "units": "glTF meters",
+    "upAxis": "Y",
+    "min": [
+      -0.5003125071525574,
+      -0.3746761083602905,
+      -0.2380005419254303
+    ],
+    "max": [
+      0.5001914501190186,
+      0.3746761083602905,
+      0.2380579113960266
+    ],
+    "triangles": 11268
+  },
+  "trees": {
+    "source": "art/trees_v2.glb",
+    "sha256": "50222138f89e6f4d6af230e8fab2cc0c8f82089fe147561e666d5fa774416d9a",
+    "sourceRotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        -0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "units": "glTF meters",
+    "upAxis": "Y",
+    "min": [
+      -0.7217814922332764,
+      -0.9409481287002563,
+      -0.585496187210083
+    ],
+    "max": [
+      0.8643918037414551,
+      0.839813232421875,
+      0.5117442607879639
+    ],
+    "triangles": 158208
+  },
+  "log": {
+    "source": "art/model-upgrade-generated/fallen_log.glb",
+    "sourceSha256": "d6d9c285a602c2f53d0987986da4ae280f98ffa096796adac7b366fb4e632f38",
+    "min": [
+      -0.5015977025032043,
+      -0.24070024490356445,
+      -0.16900835931301117
+    ],
+    "max": [
+      0.4994696080684662,
+      0.24070024490356445,
+      0.17035304009914398
+    ],
+    "triangles": 7844,
+    "meshes": 1,
+    "baseTextures": 1,
+    "rotationYDegrees": -89.36190392360025,
+    "upAxis": "Y",
+    "units": "glTF meters",
+    "nodeTransforms": "flattened with inverse-transpose normals; UVs retained",
+    "sha256": "9d3716256e0de62e91ca0eff619788f4d0c95dad0246c850c437e301f9d2a3ed"
+  },
+  "jungle": {
+    "source": "art/model-upgrade-generated/jungle_cluster.glb",
+    "sourceSha256": "9322ccd28d4c390fc67b7ae9237911d41d5aa748a8b16e961e496a840787c51b",
+    "min": [
+      -0.26079466938972473,
+      -0.5,
+      -0.483976274728775
+    ],
+    "max": [
+      0.26079466938972473,
+      0.5,
+      0.483976274728775
+    ],
+    "triangles": 7702,
+    "meshes": 1,
+    "baseTextures": 1,
+    "rotationYDegrees": 0.0,
+    "upAxis": "Y",
+    "units": "glTF meters",
+    "nodeTransforms": "flattened with inverse-transpose normals; UVs retained",
+    "sha256": "3f7b7a28bd2beefcccc6752fef235c5e176a777b8614702c3b9f8de3494cd780"
+  },
+  "bridge": {
+    "source": "art/model-upgrade-generated/rope_bridge.glb",
+    "sourceSha256": "201f7a7dc34dd57c964668440c1659efbec6139fd957d00667efc88047a617dd",
+    "min": [
+      -0.342602401971817,
+      -0.23743699491024017,
+      -0.5253958702087402
+    ],
+    "max": [
+      0.3008432686328888,
+      0.03000319004058838,
+      0.5224191546440125
+    ],
+    "triangles": 7296,
+    "meshes": 1,
+    "baseTextures": 1,
+    "rotationYDegrees": -173.678640040453,
+    "upAxis": "Y",
+    "units": "glTF meters",
+    "nodeTransforms": "flattened with inverse-transpose normals; UVs retained",
+    "deckY": -0.1814146637916565,
+    "railFit": {
+      "heightAboveDeckMeters": 1.15,
+      "verticalScaleAboveDeck": 0.5047559142112732,
+      "deckAndBase": "unchanged",
+      "UVs": "retained"
+    },
+    "sha256": "cdc32f628c4078cbeaf4dbd6e7484eb76b40d3e586dc06391487375917d9e706"
+  },
+  "corridor": {
+    "source": "art/model-upgrade-generated/stone_arch.glb",
+    "sourceSha256": "26d395d64e14c0089a495f926b39ef6c9b1f1f18d858015731132d65c2110021",
+    "min": [
+      -0.5013163089752197,
+      -0.44913455843925476,
+      -0.19990360736846924
+    ],
+    "max": [
+      0.5014100074768066,
+      0.44913455843925476,
+      0.1868213564157486
+    ],
+    "triangles": 7387,
+    "meshes": 1,
+    "baseTextures": 1,
+    "rotationYDegrees": -87.7449469246158,
+    "upAxis": "Y",
+    "units": "glTF meters",
+    "nodeTransforms": "flattened with inverse-transpose normals; UVs retained",
+    "openingWidth": 0.30542755126953125,
+    "openingHeight": 0.6269169449806213,
+    "lowArch": {
+      "min": [
+        -2.61153507232666,
+        0.0,
+        -0.674928605556488
+      ],
+      "max": [
+        2.72237491607666,
+        2.197150468826294,
+        0.674928605556488
+      ],
+      "triangles": 7387,
+      "openingWidth": 2.9,
+      "openingHeight": 1.25,
+      "method": "widen open span without enlarging pillars; shorten pillar height; retain lintel height and original UVs"
+    },
+    "sha256": "566f9a558ffe70cda9eb4a274a2405dc8b1bcf51ce35952839df9feb144db49c"
+  },
+  "compaction": {
+    "method": "retain referenced vertex/skin/animation/image buffers only",
+    "firstPersonBeforeBytes": 2922584,
+    "firstPersonAfterBytes": 2922584
+  },
+  "stone_block": {
+    "source": "models/gate.glb (original SGS masonry)",
+    "sourceSha256": "7b2ce4f4fab920d194b88e5ecc592e444dadafcf0cb6baaf46a706e135a1f192",
+    "adaptation": "clip existing carved masonry, remove tiny disconnected fragments, close cut faces; retain original carving, UVs and texture",
+    "dimensionsMeters": [
+      0.8,
+      1.25,
+      0.6
+    ],
+    "triangles": 1892,
+    "sha256": "d59667d806071a58df81e024a81f6b748ef758ebaef57ec0e8e65813be10252d",
+    "bytes": 902968
+  },
+  "stone_beam": {
+    "source": "models/gate.glb (original SGS masonry)",
+    "sourceSha256": "7b2ce4f4fab920d194b88e5ecc592e444dadafcf0cb6baaf46a706e135a1f192",
+    "adaptation": "clip existing carved masonry, remove tiny disconnected fragments, close cut faces; retain original carving, UVs and texture",
+    "dimensionsMeters": [
+      3.3,
+      0.34,
+      0.55
+    ],
+    "triangles": 2889,
+    "sha256": "64346897f09de14bcbe4fc89b46d6f16e282739763f7040454899f8179254433",
+    "bytes": 1010784
+  },
+  "fallen_column": {
+    "source": "models/gate.glb (original SGS masonry)",
+    "sourceSha256": "7b2ce4f4fab920d194b88e5ecc592e444dadafcf0cb6baaf46a706e135a1f192",
+    "adaptation": "clip existing carved masonry, remove tiny disconnected fragments, close cut faces; retain original carving, UVs and texture",
+    "dimensionsMeters": [
+      2.9,
+      0.42,
+      0.52
+    ],
+    "triangles": 1935,
+    "sha256": "8171e548a7d647488a67804601536c17bc4f5d32d49af74b9982e68f890b8658",
+    "bytes": 907752
+  },
+  "flame_tongue": {
+    "source": "scripts/prepare_dynamic_fire.py (local procedural geometry, not an SGS generation)",
+    "min": [
+      -0.15588749945163727,
+      0.0,
+      -0.11879999935626984
+    ],
+    "max": [
+      0.18400000035762787,
+      0.800000011920929,
+      0.11879999935626984
+    ],
+    "triangles": 76,
+    "vertices": 40,
+    "sha256": "8854efc13abfbbf850d30df3bb72233c6653079fd8cf678515d600fe06e159e2",
+    "animation": "runtime independent phase translation/scale/rotation at24Hz; texture contains only a color gradient"
+  },
+  "brazier": {
+    "source": "art/model-upgrade-generated/brazier.glb",
+    "sourceSha256": "8bc6abc4c3623c2ded76ce7ca4cff7abf56432ed0bcb1c861586fcfb57f955ed",
+    "min": [
+      -0.9388933181762695,
+      -0.30489009618759155,
+      -0.9478967785835266
+    ],
+    "max": [
+      0.9398473501205444,
+      0.30089616775512695,
+      0.9473714232444763
+    ],
+    "triangles": 3756,
+    "meshes": 1,
+    "baseTextures": 1,
+    "rotationYDegrees": 0.0,
+    "upAxis": "Y",
+    "units": "glTF meters",
+    "nodeTransforms": "flattened with inverse-transpose normals; UVs retained",
+    "sha256": "8ef4402c38fe9f20a99a9aa75be062431ec7d1b27baca9b47d9ec144b6aedcb5"
+  },
+  "gold_gate": {
+    "source": "art/model-upgrade-generated/golden_gate.glb",
+    "sourceSha256": "16f956a0a631b1d92312aa2cb45376260d4a9dc10b536dc6e5f9af7a369ca894",
+    "min": [
+      -0.42581018805503845,
+      -0.5,
+      -0.18951545655727386
+    ],
+    "max": [
+      0.4261787235736847,
+      0.5,
+      0.18952082097530365
+    ],
+    "triangles": 7595,
+    "meshes": 1,
+    "baseTextures": 1,
+    "rotationYDegrees": -89.90356906062725,
+    "upAxis": "Y",
+    "units": "glTF meters",
+    "nodeTransforms": "flattened with inverse-transpose normals; UVs retained",
+    "sha256": "d377ff5bd77c25e84033f82b3aef0d2f3abb0611567ceb4edf36525d24e8e3ca"
+  },
+  "low_arch": {
+    "min": [
+      -2.61153507232666,
+      0.0,
+      -0.674928605556488
+    ],
+    "max": [
+      2.72237491607666,
+      2.197150468826294,
+      0.674928605556488
+    ],
+    "triangles": 7387,
+    "openingWidth": 2.9,
+    "openingHeight": 1.25,
+    "method": "widen open span without enlarging pillars; shorten pillar height; retain lintel height and original UVs"
+  },
+  "refreshModels": {
+    "version": "0.6.0",
+    "source": "six approved SGS image_to_3d tasks; originals retained in art/model-upgrade-generated",
+    "inspection": "measured UV-preserving coordinate/rail/low-gate adaptations"
+  }
+}

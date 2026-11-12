@@ -1,0 +1,15 @@
+Recorded audio adapted for Temple Sprint V0.3.1
+
+coin sounds — syncopika
+https://opengameart.org/content/coin-sounds
+License: CC0 1.0 / https://creativecommons.org/publicdomain/zero/1.0/
+Original creator describes recording real coins. Edits: isolated strikes, EQ, compression, trim, fades, mono PCM.
+
+50 RPG sound effects — Kenney
+https://opengameart.org/content/50-rpg-sound-effects
+License: CC0 1.0 / https://creativecommons.org/publicdomain/zero/1.0/
+Edits: individual footstep and cloth/impact samples, EQ, compression, trim, fades and cue mixes.
+
+V0.4.1 slide/slide_wood: adapted Kenney cloth3/cloth4 recordings with preserved-pitch stretch, EQ, compression, mix and fades. Same CC0 license.
+
+Guardian roar: J0ck0, gorilla_roar, Gorilla sounds pack, CC0. https://opengameart.org/content/gorilla-sounds . Edits: trim, EQ, compression, mono PCM, fades.
